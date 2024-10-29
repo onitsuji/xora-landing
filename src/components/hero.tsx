@@ -1,4 +1,5 @@
 import { Element, Link } from "react-scroll";
+import Button from "./button";
 
 export default function Hero() {
   return (
@@ -16,7 +17,7 @@ export default function Hero() {
               We designed XORA AI video editor to be easy to use and powerful.
             </p>
             <Link to="features" offset={-100} spy smooth>
-              text
+              <Button>Button</Button>
             </Link>
           </div>
         </div>
